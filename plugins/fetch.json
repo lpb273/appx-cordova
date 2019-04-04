@@ -30,5 +30,25 @@
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "cordova-plugin-alipay-v2": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-alipay-v2"
+    },
+    "is_top_level": true,
+    "variables": {
+      "APP_ID": "2016032401238517"
+    }
+  },
+  "cordova-plugin-wechat": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-wechat@2.1.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "WECHATAPPID": "wx728c11328342c8f9"
+    }
   }
 }

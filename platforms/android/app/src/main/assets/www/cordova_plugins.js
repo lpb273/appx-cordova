@@ -29,6 +29,22 @@ module.exports = [
     "clobbers": [
       "navigator.splashscreen"
     ]
+  },
+  {
+    "id": "cordova-plugin-alipay-v2.alipay",
+    "file": "plugins/cordova-plugin-alipay-v2/www/alipay.js",
+    "pluginId": "cordova-plugin-alipay-v2",
+    "clobbers": [
+      "cordova.plugins.alipay"
+    ]
+  },
+  {
+    "id": "cordova-plugin-wechat.Wechat",
+    "file": "plugins/cordova-plugin-wechat/www/wechat.js",
+    "pluginId": "cordova-plugin-wechat",
+    "clobbers": [
+      "Wechat"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -37,7 +53,9 @@ module.exports.metadata =
   "cordova-plugin-whitelist": "1.3.3",
   "cordova-plugin-geolocation": "4.0.1",
   "cordova-plugin-app-version": "0.1.9",
-  "cordova-plugin-splashscreen": "5.0.2"
+  "cordova-plugin-splashscreen": "5.0.2",
+  "cordova-plugin-alipay-v2": "1.0.0",
+  "cordova-plugin-wechat": "2.1.0"
 };
 // BOTTOM OF METADATA
 });

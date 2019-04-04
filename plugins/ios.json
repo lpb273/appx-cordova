@@ -7,16 +7,24 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-whitelist": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
-    },
-    "cordova-plugin-geolocation": {
-      "PACKAGE_NAME": "io.cordova.hellocordova"
+    "cordova-plugin-alipay-v2": {
+      "APP_ID": "2016032401238517",
+      "PACKAGE_NAME": "com.kachuo.app"
     },
     "cordova-plugin-app-version": {
       "PACKAGE_NAME": "com.kachuo.app"
     },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.kachuo.app"
+    },
     "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.kachuo.app"
+    },
+    "cordova-plugin-wechat": {
+      "WECHATAPPID": "wx728c11328342c8f9",
+      "PACKAGE_NAME": "com.kachuo.app"
+    },
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.kachuo.app"
     }
   },
